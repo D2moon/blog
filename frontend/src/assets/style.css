@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 
 body {
+  margin:0;
+  padding:0;
+  background-color: #fdfdfd; /* 纸张背景颜色 */
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px), 
+    linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px; /* 网格大小 */
+  background-position: center;
   font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+
+.content {
+  width: 50%;
+  max-width: 800px;
+  margin: 0 auto; /* 居中对齐 */
+  padding: 20px;
+  background-color: transparent;
 }

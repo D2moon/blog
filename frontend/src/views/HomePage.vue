@@ -1,3 +1,4 @@
+<!-- filepath: d:\Projects\blog\frontend\src\views\HomePage.vue -->
 <template>
   <div class="homepage">
     <!-- 顶部导航 -->
@@ -57,8 +58,8 @@ body {
 
 /* 顶部导航 */
 header {
-  background-color: #333;
-  color: white;
+  /* 去掉背景颜色 */
+  color: black; /* 将文字颜色换成黑色 */
   padding: 10px 0;
 }
 
@@ -73,7 +74,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: white;
+  color: black; /* 将文字颜色换成黑色 */
   text-decoration: none;
   font-weight: bold;
 }
