@@ -68,7 +68,7 @@
 .content {
   width: 50vw; /* 占据屏幕的一半宽度 */
   max-width: 800px; /* 最大宽度 */
-  margin: 20px auto; /* 居中 */
+  margin: 10px auto; /* 居中 */
   padding: 20px;
   text-align: left; /* 文本左对齐 */
 }
